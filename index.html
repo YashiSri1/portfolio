@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashi Srivastava-Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            min-height: 100vh;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li a{
+           text-decoration: none;
+           color: white;
+
+        }
+         nav ul li a:hover{
+          color: rgb(161, 100, 100)
+
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        main {
+      flex: 1; /* pushes footer down */
+    }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+        }
+        .firstSection > div{
+              width: 30%;
+        }
+        .leftSection{
+            font-size: 3rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .leftSection .buttons{
+            padding: 23px;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background-color: #1e2167;
+            border: 2px solid white;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+
+            font-size: 20px;
+        }
+        .rightSection img{
+            width: 80%;
+        }
+        .grey{
+            color: grey;
+        }
+       
+        .secondSection{
+            max-width: 80vw;
+            margin:auto ;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9em;
+        }
+         .rightSection1 img{
+            display: flex;
+            justify-items: space-around;
+            float: right;
+          width: 40%;
+          
+        }
+     footer a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+      color: #9f6524;
+    }
+    footer{
+     position:fixed; 
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background:rgb(18, 18, 62); ;
+      text-align: center;
+      padding: 10px;
+
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Yashi Srivastava's -Portfolio</div>
+            <div class="right"> 
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is Yashi Srivastava 
+                <div>and I am a Frontend Developer</div>
+                
+                <div class="buttons">
+                    <a href="file.pdf" target="_blank">
+                    <button class="btn">Download Resume</button>
+                    </a>
+                    <a href="https://github.com/YashiSri1" target="_blank">
+                    <button class="btn">Visit Github</button>
+                    </a> 
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="im.png" alt="">
+            </div>
+            </section>
+            <hr> 
+            <br>
+              <div class="rightSection1">
+                <img src="img1.jpg" alt="" >
+                </div>
+            <section class="secondSection">
+                <span class="grey">What I have done so Far</span>
+              
+                <h1>Skills</h1><br>
+              <div class="box">
+                <h3><ul><li>DSA(Data Structure and Algorithm)</li></ul></h3>
+                <h3><ul><li>C++</li></ul></h3>
+                <h3>
+                    <ul><li>HTML (Hypertext Markup Language)</li></ul>
+                </h3>
+                <h3> 
+                    <ul><li>CSS (Cascading Style Sheets)</li></ul>
+                    </h3>
+                <h3> 
+                    <ul><li>JAVA SCRIPT</li></ul></h3>
+                    <br><br><hr> 
+                    <h1>School level achievements<h2>
+                        <h3><ul><li>Got 2nd rank in school in 12th Boards</li></ul></h3>
+                        <h3><ul><li>Got 3rd rank in Badminton Competition at school level</li></ul></h3>
+                         <h3><ul><li>Got 1st rank in Dance Competition at district level</li></ul></h3>
+
+                
+
+                <footer>
+                    <p>
+                        Connect with me:
+                        <a href="https://www.linkedin.com/in/yashi-srivastava-016938307/" target="_blank">Linkedin</a>
+                        <a href="https://github.com/YashiSri1" target="_blank">Github</a>
+                         <a href="yashisrivastava4004@gmail.com">Email</a>
+                    </p>
+                    <br>
+                    <div class="footer-right">
+                        Copyright &#169; yashi_portfolio.com | All rights reserved
+                    </div>
+                </footer>
+
+              
+            </section>
+
+        
+    </main>
+</body>
+</html>
